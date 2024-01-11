@@ -1,0 +1,17 @@
+{
+  "name": "com.virgis.vr-keyboard",
+  "version": "0.9.1",
+  "displayName": "Simple VR Keyboard",
+  "description": "Unity Keyboard for use in VR",
+  "dependencies": {
+    "com.unity.xr.interaction.toolkit": "2.0.1"
+  },
+  "author": {
+    "name": "Virgis Team",
+    "email": "info@virgis.org",
+    "url": "https://www.virgis.org"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "XRInteractionMappings",
+    "maps": [
+        {
+            "name": "NodeInteraction",
+            "id": "ab09f7e2-bcd7-4fd0-8f7a-4ce9b2dd9309",
+            "actions": [
+                {
+                    "name": "CancelSpawn",
+                    "type": "Button",
+                    "id": "b352f49e-62ba-4eee-8469-2269d2dacbd0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3121dd05-82aa-4b47-b47e-95b4c9c9d8c2",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "QuestControllers",
+                    "action": "CancelSpawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32e3dc56-59cb-4b11-9986-8e367721fd24",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "QuestControllers",
+                    "action": "CancelSpawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "QuestControllers",
+            "bindingGroup": "QuestControllers",
+            "devices": [
+                {
+                    "devicePath": "<XRController>{LeftHand}",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
